@@ -2,7 +2,7 @@
 
 const express = require("express");
 const app = express();
-const port = 5000;
+const port = 3001;
 const bp = require("body-parser");
 const qr = require("qrcode");
 
@@ -34,4 +34,4 @@ app.post("/scan", (req, res) => {
 });
 
 // Setting up the port for listening requests
-app.listen(port, () => console.log("Server at 5000"));
+app.listen(port, () => console.log("Server at 3001"));
